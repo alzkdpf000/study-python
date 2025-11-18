@@ -1,0 +1,16 @@
+conda --version
+conda info
+conda init
+conda env list
+conda activate [가상환경이름]
+conda deactivate
+conda create -n [가상환경이름] python=버전
+conda list
+pip install jupyter notebook
+python -m ipykernel install --user --name 가상환경이름 --display-name "커널출력이름"
+
+# 커널 연결 끊기
+jupyter kernelspec uninstall test 
+
+# 가상환경 삭제
+conda remove --name 가상환경 이름 --all
